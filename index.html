@@ -7,38 +7,43 @@
     <title>📝AI poem generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI poem generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the poem topic"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        poem
-        <br />
-        poem-generator
-        <br />
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Monja016" target="_blank">Monja Fourie</a> and
-      is open-sourced on
-      <a href="https://github.com/Monja016/poem-generator" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://monja-ai-poem.netlify.app/" target="_blank"> Netlify </a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI poem generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the poem topic"
+            autofocus
+            required
+            autocomplete="off"
+            class="instruction"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          poem
+          <br />
+          poem
+          <br />
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Monja016" target="_blank">Monja Fourie</a>
+        and is open-sourced on
+        <a href="https://github.com/Monja016/poem-generator" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://monja-ai-poem.netlify.app/" target="_blank">
+          Netlify
+        </a>
+      </footer>
 
-    <script src="src/index.js"></script>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>
